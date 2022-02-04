@@ -1,5 +1,4 @@
-os: windows
 language: python
 
-python:
+rvm:
    - 3.9

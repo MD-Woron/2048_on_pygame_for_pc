@@ -62,7 +62,7 @@ clock = pygame.time.Clock()
 
 number_height = tuple(map(lambda param: param//2//font_size, screensize))
 
-numbers = [0]*2049
+numbers = dict()
 
 numbers[0] = pygame.transform.scale(pygame.image.load('0.bmp'), (number_height))
 
